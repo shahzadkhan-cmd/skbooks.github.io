@@ -1,0 +1,12 @@
+<!-- ========================= style.css ========================= -->
+body {
+font-family: Arial, sans-serif;
+}
+
+
+
+
+/* ========================= script.js ========================= */
+function toggleDarkMode() {
+document.documentElement.classList.toggle('dark');
+}

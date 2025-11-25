@@ -1,0 +1,50 @@
+<!-- ========================= gallery.html ========================= -->
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<title>Gallery – SKBooks</title>
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-100">
+
+
+<nav class="bg-indigo-600 dark:bg-indigo-800 text-white p-4 flex justify-between">
+<h1 class="text-2xl font-bold">SKBooks</h1>
+<div class="flex gap-6">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="gallery.html">Gallery</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html">Contact</a>
+</div>
+<button onclick="toggleDarkMode()" class="bg-black/20 px-3 py-1 rounded">Dark</button>
+</nav>
+
+
+<section class="max-w-6xl mx-auto p-8">
+<h2 class="text-3xl mb-8 font-semibold text-center">My Book Collection</h2>
+
+
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white dark:bg-gray-800 rounded shadow p-4">
+<img src="images/book1.jpg" alt="Book 1" class="rounded mb-3">
+<h3 class="font-semibold text-xl">History Book</h3>
+</div>
+<div class="bg-white dark:bg-gray-800 rounded shadow p-4">
+<img src="images/book2.jpg" alt="Book 2" class="rounded mb-3">
+<h3 class="font-semibold text-xl">Science Book</h3>
+</div>
+<div class="bg-white dark:bg-gray-800 rounded shadow p-4">
+<img src="images/book3.jpg" alt="Book 3" class="rounded mb-3">
+<h3 class="font-semibold text-xl">Tech Book</h3>
+</div>
+</div>
+</section>
+
+
+</body>
+</html>
